@@ -1,0 +1,1183 @@
+<!doctype html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- color of address bar in mobile browser -->
+    <meta name="theme-color" content="#2B2B35">
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="img/thumbnail.ico" type="image/x-icon">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/plugins/bootstrap.min.css">
+    <!-- font awesome css -->
+    <link rel="stylesheet" href="css/plugins/font-awesome.min.css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="css/plugins/swiper.min.css">
+    <!-- fancybox css -->
+    <link rel="stylesheet" href="css/plugins/fancybox.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css') ?>">
+    <link rel="stylesheet" href="css/print.css?v=<?php echo filemtime('css/print.css') ?>">
+
+    <title>Daniel Gozdolek</title>
+</head>
+
+<body>
+
+<!-- app -->
+<div class="art-app art-app-onepage">
+
+    <!-- mobile top bar -->
+    <div class="art-mobile-top-bar"></div>
+
+    <!-- app wrapper -->
+    <div class="art-app-wrapper">
+
+        <!-- app container end -->
+        <div class="art-app-container">
+
+            <!-- info bar -->
+            <div class="art-info-bar">
+
+                <!-- menu bar frame -->
+                <div class="art-info-bar-frame">
+
+                    <!-- info bar header -->
+                    <div class="art-info-bar-header">
+                        <!-- info bar button -->
+                        <a class="art-info-bar-btn" href="#.">
+                            <!-- icon -->
+                            <i class="fas fa-ellipsis-v"></i>
+                        </a>
+                        <!-- info bar button end -->
+                    </div>
+                    <!-- info bar header end -->
+
+                    <!-- info bar header -->
+                    <div class="art-header">
+                        <!-- avatar -->
+                        <div class="art-avatar">
+                            <a data-fancybox="avatar" href="img/DanielG.jpeg" class="art-avatar-curtain">
+                                <img src="img/DanielG.jpeg" alt="avatar">
+                                <i class="fas fa-expand"></i>
+                            </a>
+                            <!-- available -->
+                            <div class="art-lamp-light">
+                                <!-- add class 'art-not-available' if not available-->
+                                <div class="art-available-lamp"></div>
+                            </div>
+                        </div>
+                        <!-- avatar end -->
+                        <!-- name -->
+                        <h5 class="art-name mb-10">Daniel Gozdolek</h5>
+                        <!-- post -->
+                        <div class="art-sm-text">Back-end Deweloper <br>Front-end, Wordpress</div>
+
+                    </div>
+                    <!-- info bar header end -->
+
+                    <!-- scroll frame -->
+                    <div id="scrollbar2" class="art-scroll-frame">
+
+                        <!-- info bar about -->
+                        <div class="art-table p-15-15">
+                            <!-- about text -->
+                            <ul>
+                                <!-- email -->
+                                <li>
+                                    <h6>Email:</h6>
+                                    <span>
+                                        <a href="mailto:info@webox.ie">info@webox.ie</a>
+                                    </span>
+                                </li>
+                                <!-- country -->
+                                <li>
+                                    <h6>Residence:</h6><span>Ireland</span>
+                                </li>
+                                <!-- city -->
+                                <li>
+                                    <h6>City:</h6><span>Balbriggan</span>
+                                </li>
+                                <!-- age -->
+                                <li>
+                                    <h6>Age:</h6><span><?php
+                                        $m = (int)date('m') - 6;
+                                        $y = (int)date('Y') - 1978;
+                                        if ($m < 0) $y -= 1;
+                                        echo $y; ?></span>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- info bar about end -->
+
+                        <!-- divider -->
+                        <div class="art-ls-divider divider-1"></div>
+
+                        <!-- language skills -->
+                        <div class="art-lang-skills p-30-15">
+
+                            <!-- skill -->
+                            <div class="art-lang-skills-item">
+                                <div id="circleprog2" class="art-cirkle-progress"></div>
+                                <!-- title -->
+                                <h6>English</h6>
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-lang-skills-item">
+                                <div id="circleprog1" class="art-cirkle-progress"></div>
+                                <!-- title -->
+                                <h6>Polish</h6>
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-lang-skills-item">
+                                <div id="circleprog3" class="art-cirkle-progress"></div>
+                                <!-- title -->
+                                <h6>Spanish</h6>
+                            </div>
+                            <!-- skill end -->
+
+                        </div>
+                        <!-- language skills end -->
+
+                        <!-- divider -->
+                        <div class="art-ls-divider divider-2"></div>
+
+                        <!-- hard skills -->
+                        <div class="art-hard-skills p-30-15">
+
+                            <!-- skill -->
+                            <div class="art-hard-skills-item">
+                                <div class="art-skill-heading">
+                                    <!-- title -->
+                                    <h6>Python</h6>
+                                </div>
+                                <!-- progressbar frame -->
+                                <div class="art-line-progress">
+                                    <!-- progressbar -->
+                                    <div id="lineprog4"></div>
+                                </div>
+                                <!-- progressbar frame end -->
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-hard-skills-item">
+                                <div class="art-skill-heading">
+                                    <!-- title -->
+                                    <h6>Html</h6>
+                                </div>
+                                <!-- progressbar frame -->
+                                <div class="art-line-progress">
+                                    <!-- progressbar -->
+                                    <div id="lineprog1"></div>
+                                </div>
+                                <!-- progressbar frame end -->
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-hard-skills-item">
+                                <div class="art-skill-heading">
+                                    <!-- title -->
+                                    <h6>CSS</h6>
+                                </div>
+                                <!-- progressbar frame -->
+                                <div class="art-line-progress">
+                                    <!-- progressbar -->
+                                    <div id="lineprog2"></div>
+                                </div>
+                                <!-- progressbar frame end -->
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-hard-skills-item">
+                                <div class="art-skill-heading">
+                                    <!-- title -->
+                                    <h6>Js</h6>
+                                </div>
+                                <!-- progressbar frame -->
+                                <div class="art-line-progress">
+                                    <!-- progressbar -->
+                                    <div id="lineprog3"></div>
+                                </div>
+                                <!-- progressbar frame end -->
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-hard-skills-item">
+                                <div class="art-skill-heading">
+                                    <!-- title -->
+                                    <h6>PHP</h6>
+                                </div>
+                                <!-- progressbar frame -->
+                                <div class="art-line-progress">
+                                    <!-- progressbar -->
+                                    <div id="lineprog0"></div>
+                                </div>
+                                <!-- progressbar frame end -->
+                            </div>
+                            <!-- skill end -->
+
+                            <!-- skill -->
+                            <div class="art-hard-skills-item">
+                                <div class="art-skill-heading">
+                                    <!-- title -->
+                                    <h6>Wordpress</h6>
+                                </div>
+                                <!-- progressbar frame -->
+                                <div class="art-line-progress">
+                                    <!-- progressbar -->
+                                    <div id="lineprog5"></div>
+                                </div>
+                                <!-- progressbar frame end -->
+                            </div>
+                            <!-- skill end -->
+
+                        </div>
+                        <!-- language skills end -->
+
+                        <!-- divider -->
+                        <div class="art-ls-divider divider-3"></div>
+
+                        <!-- knowledge list -->
+                        <ul class="art-knowledge-list p-15-0">
+                            <!-- list item -->
+                            <li>GIT, Docker</li>
+                            <li>Flask, Beautiful Soup</li>
+                            <li>Dryscrape, Selenium</li>
+                            <li>Linux</li>
+                            <li>Wordpress</li>
+                            <li>WooCommerce, Opencart</li>
+                        </ul>
+                        <!-- knowledge list end -->
+
+                        <!-- divider -->
+                        <div class="art-ls-divider divider-4"></div>
+
+                        <!-- links frame -->
+                        <div class="art-links-frame p-15-15">
+
+                            <!-- download cv button -->
+                            <a href="files/Daniel-G-CV.pdf" class="art-link" download>Download cv <i class="fas fa-download"></i></a>
+
+                        </div>
+                        <!-- links frame end -->
+
+                    </div>
+                    <!-- scroll frame end -->
+
+                    <!-- sidebar social -->
+                    <div class="art-ls-social">
+                        <!-- social link -->
+                        <a href="https://github.com/danncti" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                        <!-- social link -->
+                        <a href="https://www.linkedin.com/in/daniel-gozdolek-967639101/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+                        <!-- social link -->
+                        <a href="#." target="_blank" rel="noopener noreferrer"><i class="far fa-circle"></i></a>
+                        <!-- social link -->
+                        <a href="#." target="_blank" rel="noopener noreferrer"><i class="far fa-circle"></i></a>
+                        <!-- social link -->
+                        <a href="https://www.codewars.com/users/danncti" target="_blank" rel="noopener noreferrer"><img class="codewars "></a>
+                    </div>
+                    <!-- sidebar social end -->
+
+                </div>
+                <!-- menu bar frame end -->
+
+            </div>
+            <!-- info bar end -->
+
+            <!-- content -->
+            <div class="art-content">
+
+                <!-- curtain -->
+                <div class="art-curtain"></div>
+
+                <!-- top background -->
+                <div class="art-top-bg">
+                    <!-- overlay -->
+                    <div class="art-top-bg-overlay"></div>
+                    <!-- overlay end -->
+                </div>
+                <!-- top background end -->
+
+                <!-- swup container -->
+                <div class="transition-fade" id="swup">
+
+                    <!-- scroll frame -->
+                    <div id="scrollbar" class="art-scroll-frame">
+
+                        <!-- container -->
+                        <div class="container-fluid" style="padding-top: 25px">
+
+                            <!-- row -->
+                            <div class="row">
+
+                                <!-- col -->
+                                <div id="col-cert" class="col-lg-6 col-cert">
+
+                                    <!-- section title -->
+                                    <div class="art-section-title">
+                                        <!-- title frame -->
+                                        <div class="art-title-frame">
+                                            <!-- title -->
+                                            <h4>Certificates, Courses</h4>
+                                        </div>
+                                        <!-- title frame end -->
+                                    </div>
+                                    <!-- section title end -->
+
+                                    <!-- timeline -->
+                                    <div class="art-timeline art-gallery" id="history">
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Introduction to Programming using Python Online Course with Tutor Support
+                                                            </h5>
+                                                        <div class="art-el-suptitle mb-15">Certification: Microsoft Technology Associate (MTA)
+                                                            Introduction to Programming Using Python (Exam: 98-381)
+                                                        </div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">Cork College of FET - Feb 2022/Jun 2022</span>
+                                                    </div>
+                                                </div>
+
+                                                <p>Introduce you to the experience of Online Learning<br>
+                                                    Python - Bring me to the junior programmer level, Prepare you for the Microsoft Technology Associate (MTA) exam,
+                                                    <strong>Introduction to Programming Using Python (Exam 98-381)</strong><br>
+                                                    Job seeking - How to find job opportunities, Prepare CV and job applications</p>
+                                                <a data-fancybox="diplome"
+                                                   href="files/Cert46455257610-Daniel-G.pdf"
+                                                   class="art-link art-color-link art-w-chevron">Certificate</a>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Google IT Automation with Python</h5>
+                                                        <div class="art-el-suptitle mb-15">Google - Professional
+                                                            Certificate
+                                                        </div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">COURSERA.ORG - Sep 2021</span>
+                                                    </div>
+                                                </div>
+
+                                                <p>Course Certificates Completed: Configuration Management and the
+                                                    Cloud, Automating Real-World Tasks with Python, Crash Course on
+                                                    Python, Using Python to Interact with the Operating System,
+                                                    Introduction to Git and GitHub, Troubleshooting and Debugging
+                                                    Techniques</p>
+                                                <a data-fancybox="diplome"
+                                                   href="files/Coursera-PR6XQGSW3BT7-Daniel-G.jpg"
+                                                   class="art-link art-color-link art-w-chevron">Certificate</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Python for Everybody</h5>
+                                                        <div class="art-el-suptitle mb-15">University of Michigan -
+                                                            Specialization Certificate
+                                                        </div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">COURSERA.ORG - Dec 2021</span>
+                                                    </div>
+                                                </div>
+                                                <p>Course Certificates Completed: Python Data Structures, Using
+                                                    Databases with Python, Using Python to Access Web Data, Capstone:
+                                                    Retrieving, Processing, and Visualizing Data with Python,
+                                                    Programming for Everybody (Getting Started with Python)</p>
+                                                <a data-fancybox="diplome"
+                                                   href="files/Coursera-PRX46DRLXK7U-Daniel-G.jpg"
+                                                   class="art-link art-color-link art-w-chevron">Certificate</a>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Algorithmic Toolbox & Algorithms on Graphs </h5>
+                                                        <div class="art-el-suptitle mb-15">University of California San Diego Course</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">COURSERA.ORG - Now/Dec 2021</span>
+                                                    </div>
+                                                </div>
+                                                <p>Essential algorithmic techniques, Design efficient algorithms, Graph Algorithms</p>
+                                                <a data-fancybox="diplome" href="files/Coursera-5RNQNXE3KGY3-Daniel-G.jpg"
+                                                   class="art-link art-color-link art-w-chevron">Certificate</a>
+                                                <a data-fancybox="diplome" href="files/Coursera-RW3W87G8HDGB-Daniel-G.jpg"
+                                                   class="art-link art-color-link art-w-chevron">Certificate</a>
+
+                                            </div>
+
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Create Your First Web App with Python and Flask</h5>
+                                                        <div class="art-el-suptitle mb-15">Coursera Project Network</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">COURSERA.ORG - Now 2021</span>
+                                                    </div>
+                                                </div>
+                                                <p>Create Web Applications with Flask, Use WTForms and SQLAlchemy in Flask Applications, Use Templates in Flask Applications</p>
+                                                <a data-fancybox="diplome" href="files/Coursera-YY7JNLJV25C3-Daniel-G.jpg"
+                                                   class="art-link art-color-link art-w-chevron">Certificate</a>
+                                            </div>
+
+                                        </div>
+
+
+                                    </div>
+                                    <!-- timeline end -->
+
+                                </div>
+                                <!-- col end -->
+
+                                <!-- col -->
+                                <div id="col-work" class="col-lg-6 col-work">
+
+                                    <!-- section title -->
+                                    <div class="art-section-title">
+                                        <!-- title frame -->
+                                        <div class="art-title-frame">
+                                            <!-- title -->
+                                            <h4>Work Experience</h4>
+                                        </div>
+                                        <!-- title frame end -->
+                                    </div>
+                                    <!-- section title end -->
+
+                                    <!-- timeline -->
+                                    <div class="art-timeline">
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>IT Administrator</h5>
+                                                        <div class="art-el-suptitle mb-15">Eurecca Un Limited, Ireland</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">01/2019 - 02/2022</span>
+                                                    </div>
+                                                </div>
+                                                <p>Website development, E-commerce website development, <br>IT systems
+                                                    supervision, <br>PHP and Python e-commerce automation, <br>Web Scraping,
+                                                    API management</p>
+                                                <p><strong>Achievements/Tasks</strong>
+                                                    <ul>
+                                                        <li>Complete design of an electronic device to control a
+                                                            photovoltaic tracker, including printed circuit board
+                                                            and sun sensor.</li>
+                                                        <li>Program in C to manage this device.</li>
+                                                    </ul>
+                                                    </p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>General Operative</h5>
+                                                        <div class="art-el-suptitle mb-15">DHL, Ireland</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">08/2006 - 08/2019</span>
+                                                    </div>
+                                                </div>
+                                                <p>Logistic, Warehouse<br>
+                                                Preparing deliveries of products to Boots shops</p>
+                                                <a data-fancybox="recommendation" href="#art-recomendation-popup-1"
+                                                   class="art-link art-color-link art-w-chevron">Contact</a>
+                                            </div>
+
+                                            <!-- popup -->
+                                            <div class="art-recomendation-popup" style="display: none;"
+                                                 id="art-recomendation-popup-1">
+
+                                                <!-- testimonial -->
+                                                <div class="art-a art-testimonial">
+                                                    <!-- testimonial body -->
+                                                    <div class="testimonial-body">
+                                                        <!-- photo -->
+                                                        <img class="art-testimonial-face"
+                                                             src="img/testimonials/face-2.jpg" alt="face">
+                                                        <!-- name -->
+                                                        <h5>Barry Ryan</h5>Manager</div>
+                                                        <!-- text -->
+                                                        <div class="mb-15">+353 86021 7263<br><a href="mailto:barry.ryan@dhl.com">barry.ryan@dhl.com</a>
+                                                        </div>
+                                                    </div>
+                                                    <!-- testimonial body end -->
+                                                    <!-- testimonial footer -->
+                                                    <div class="art-testimonial-footer">
+                                                        <div class="art-left-side">
+                                                            <!-- star rate -->
+                                                            <ul class="art-star-rate">
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li><i class="fas fa-star"></i></li>
+                                                                <li class="art-empty-item"><i class="fas fa-star"></i>
+                                                                </li>
+                                                            </ul>
+                                                            <!-- star rate end -->
+                                                        </div>
+                                                        <div class="art-right-side">
+
+                                                        </div>
+                                                    </div>
+                                                    <!-- testimonial footer end -->
+                                                </div>
+                                            <!-- testimonial end -->
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>General Assistant</h5>
+                                                        <div class="art-el-suptitle mb-15">ADECO, Ireland</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">04/2006 - 08/2006</span>
+                                                    </div>
+                                                </div>
+                                                <p>Logistic, Warehouse</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Sewing machines mechanic</h5>
+                                                        <div class="art-el-suptitle mb-15">LUKPOL & TARANI, Poland</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">1998 - 2006</span>
+                                                    </div>
+                                                </div>
+                                                <p>Repairs and maintenance of sewing machines, stock control.</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Salesperson</h5>
+                                                        <div class="art-el-suptitle mb-15">PACIFIC, Poland</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">2004 - 2005</span>
+                                                    </div>
+                                                </div>
+                                                <p>Direct selling services. <br>
+                                                    E.g. services of fitness clubs, philharmonics, theatre.</p>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <!-- timeline end -->
+
+                                    <!-- section title -->
+                                    <div class="art-section-title">
+                                        <!-- title frame -->
+                                        <div class="art-title-frame">
+                                            <!-- title -->
+                                            <h4>School Education</h4>
+                                        </div>
+                                        <!-- title frame end -->
+                                    </div>
+                                    <!-- section title end -->
+
+                                    <!-- timeline -->
+                                    <div class="art-timeline">
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Master Degree, <br>Pedagogy</h5>
+                                                        <div class="art-el-suptitle mb-15">UMCS University, Poland</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">2002 - 2004</span>
+                                                    </div>
+                                                </div>
+                                                <!--                                                <p></p>-->
+                                            </div>
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Bachelor Degree, <br>Pedagogy of management</h5>
+                                                        <div class="art-el-suptitle mb-15">WSUiZ</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">1999 - 2002</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="art-timeline-item">
+                                            <div class="art-timeline-mark-light"></div>
+                                            <div class="art-timeline-mark"></div>
+
+                                            <div class="art-a art-timeline-content">
+                                                <div class="art-card-header">
+                                                    <div class="art-left-side">
+                                                        <h5>Leaving Certificate, <br>Technician of economics</h5>
+                                                        <div class="art-el-suptitle mb-15">Post-secondary vocational studies</div>
+                                                    </div>
+                                                    <div class="art-right-side">
+                                                        <span class="art-date">1997 - 1999</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <!-- timeline end -->
+
+                                </div>
+                                <!-- col end -->
+
+                            </div>
+                            <!-- row end -->
+
+                        </div>
+                        <!-- container end -->
+
+                        <!-- container -->
+                        <div class="container-fluid container-fluid-work">
+
+                            <!-- row -->
+                            <div class="row p-30-0">
+
+                                <!-- col -->
+                                <div class="col-lg-12">
+
+                                    <!-- section title -->
+                                    <div class="art-section-title">
+                                        <!-- title frame -->
+                                        <div class="art-title-frame">
+                                            <!-- title -->
+                                            <h4>Works</h4>
+                                        </div>
+                                        <!-- title frame end -->
+                                        <!-- right frame -->
+                                        <div class="art-right-frame">
+                                            <!-- filter -->
+                                            <div class="art-filter">
+                                                <!-- filter link -->
+                                                <a href="#" data-filter="*" class="art-link art-current">All Categories</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".pythonCat" class="art-link">Python</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".flaskCat" class="art-link">Flask</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".arduinoCat" class="art-link">C/C++ Arduino</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".wordpressCat" class="art-link">Wordpress</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".openCartCat" class="art-link">OpenCart</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".webTemplatesCat" class="art-link">Web Templates</a>
+                                                <!-- filter link -->
+                                                <a href="#" data-filter=".wooCommerceCat" class="art-link">WooCommerce</a>
+                                            </div>
+                                            <!-- filter end -->
+                                        </div>
+                                        <!-- right frame end -->
+                                    </div>
+                                    <!-- section title end -->
+
+                                </div>
+                                <!-- col end -->
+
+                                <div class="art-grid art-grid-3-col art-gallery">
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item pythonCat flaskCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery" href="img/works/original-size/solana-token.ie.jpg"
+                                           class="art-a art-portfolio-item-frame art-horizontal">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/solana-token.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">solana-token.ie</h5>
+                                            <div class="mb-15">Create your own crypto token on Solana chain - with few cliks, <br>without any programming knowledge.
+                                            <br><br>Flask, Subprocess, Solana API, Docker.</div>
+                                            <!-- button -->
+                                            <a href="http://solana-token.ie" class="art-link art-color-link art-w-chevron" target="_blank" rel="noopener noreferrer">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item arduinoCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery" href="img/works/original-size/T2-T1-beta.jpg"
+                                           class="art-a art-portfolio-item-frame art-horizontal">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/T2-T1-beta-280x180.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Solar Tracker Controll App</h5>
+                                            <div class="mb-15">C/C++ ARDUINO. Program for controll single axis solar tracker. App for controll two axis tracker in progres.<br>
+                                            I aslo make full project of electronic circuit. Final beta version on image.</div>
+                                            <!-- button -->
+<!--                                            <a href="https://webox.ie" class="art-link art-color-link art-w-chevron">Visit website</a>-->
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat webTemplatesCat wooCommerceCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery" href="img/works/original-size/webox.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-horizontal">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/webox.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">WeBox.ie</h5>
+                                            <!-- button -->
+                                            <a href="https://webox.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery"
+                                           href="img/works/original-size/irlandianews.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-vertical">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/irlandianews.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">IrlandiaNews.ie</h5>
+                                            <div class="mb-15">Information service in Polish, Spanish and Portuguese for people living in Ireland. irlandianews.ie, irlandanews.ie and noticiasirlanda.ie
+                                            </div>
+                                            <!-- button -->
+                                            <a href="https://irlandianews.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery"
+                                           href="img/works/original-size/drivingwell.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-square">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/drivingwell.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">DrivingWell.ie</h5>
+                                            <div class="mb-15">Driving school.
+                                            </div>
+                                            <!-- button -->
+                                            <a href="https://drivingwell.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat wooCommerceCat pythonCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery" href="img/works/original-size/eurecca.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-vertical">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/eurecca.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Eurecca.ie</h5>
+                                            <div class="mb-15">Eurecca Un Limited - renawable energy - company website.
+                                            </div>
+                                            <!-- button -->
+                                            <a href="https://eurecca.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item openCartCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery" href="img/works/original-size/all4home.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-square">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/all4home.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Project title5</h5>
+                                            <div class="mb-15">...
+                                            </div>
+                                            <!-- button -->
+                                            <a href="#" class="art-link art-color-link art-w-chevron">...</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat wooCommerceCat pythonCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery"
+                                           href="img/works/original-size/newbridgetiles.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-vertical">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/newbridgetiles.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Newbridge tiles online shop</h5>
+                                            <div class="mb-15">...
+                                            </div>
+                                            <!-- button -->
+                                            <a href="https://newbridgetiles.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery"
+                                           href="img/works/original-size/better-together.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-square">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/better-together.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Better-Together.ie</h5>
+                                            <div class="mb-15">...
+                                            </div>
+                                            <!-- button -->
+                                            <a href="https://better-together.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                    <!-- grid item -->
+                                    <div class="art-grid-item wordpressCat">
+                                        <!-- grid item frame -->
+                                        <a data-fancybox="gallery"
+                                           href="img/works/original-size/katalogfirm.ie-large.jpg"
+                                           class="art-a art-portfolio-item-frame art-horizontal">
+                                            <!-- img -->
+                                            <img src="img/works/thumbnail/katalogfirm.ie-thumb.jpg" alt="item">
+                                            <!-- zoom icon -->
+                                            <span class="art-item-hover"><i class="fas fa-expand"></i></span>
+                                        </a>
+                                        <!-- grid item frame end -->
+                                        <!-- description -->
+                                        <div class="art-item-description">
+                                            <!-- title -->
+                                            <h5 class="mb-15">Companies Catalog</h5>
+                                            <!-- button -->
+                                            <a href="https://katalogfirm.ie" class="art-link art-color-link art-w-chevron">Visit website</a>
+                                        </div>
+                                        <!-- description end -->
+
+                                    </div>
+                                    <!-- grid item end -->
+
+                                </div>
+
+                            </div>
+                            <!-- row end -->
+
+                        </div>
+                        <!-- container end -->
+
+                        <!-- container -->
+                        <div class="container-fluid container-fluid-contact">
+
+                            <!-- row -->
+                            <div class="row p-30-0">
+
+                                <!-- col -->
+                                <div class="col-lg-12">
+
+                                    <!-- section title -->
+                                    <div class="art-section-title">
+                                        <!-- title frame -->
+                                        <div class="art-title-frame">
+                                            <!-- title -->
+                                            <h4>Get in touch</h4>
+                                        </div>
+                                        <!-- title frame end -->
+                                    </div>
+                                    <!-- section title end -->
+
+                                    <!-- contact form frame -->
+                                    <div class="art-a art-card">
+
+                                        <!-- contact form -->
+                                        <form id="form" class="art-contact-form">
+                                            <!-- form field -->
+                                            <div class="art-form-field">
+                                                <!-- name input -->
+                                                <input id="name" name="name" class="art-input" type="text"
+                                                       placeholder="Name" required>
+                                                <!-- label -->
+                                                <label for="name"><i class="fas fa-user"></i></label>
+                                            </div>
+                                            <!-- form field end -->
+                                            <!-- form field -->
+                                            <div class="art-form-field">
+                                                <!-- email input -->
+                                                <input id="email" name="email" class="art-input" type="email"
+                                                       placeholder="Email" required>
+                                                <!-- label -->
+                                                <label for="email"><i class="fas fa-at"></i></label>
+                                            </div>
+                                            <!-- form field end -->
+                                            <!-- form field -->
+                                            <div class="art-form-field">
+                                                <!-- message textarea -->
+                                                <textarea id="message" name="text" class="art-input"
+                                                          placeholder="Message" required></textarea>
+                                                <!-- label -->
+                                                <label for="message"><i class="far fa-envelope"></i></label>
+                                            </div>
+                                            <!-- form field end -->
+                                            <!-- button -->
+                                            <div class="art-submit-frame">
+                                                <button class="art-btn art-btn-md art-submit" type="submit"><span>Send message</span>
+                                                </button>
+                                                <!-- success -->
+                                                <div class="art-success">Success <i class="fas fa-check"></i></div>
+                                            </div>
+                                        </form>
+                                        <!-- contact form end -->
+
+                                    </div>
+                                    <!-- contact form frame end -->
+
+                                </div>
+                                <!-- col end -->
+
+                            </div>
+                            <!-- row end -->
+
+                        </div>
+                        <!-- container end -->
+
+                        <!-- container -->
+                        <div class="container-fluid container-fluid-footer">
+
+                            <!-- footer -->
+                            <footer>
+                                <!-- copyright -->
+                                <div>© 2022 Daniel Gozdolek</div>
+                                <!-- author ( Please! Do not delete it. You are awesome! :) -->
+                                <div>Template author:&#160; <a href="https://themeforest.net/user/millerdigitaldesign"
+                                                               target="_blank">Nazar Miller</a></div>
+                            </footer>
+                            <!-- footer end -->
+
+                        </div>
+                        <!-- container end -->
+
+
+                    </div>
+                    <!-- scroll frame end -->
+
+                </div>
+                <!-- swup container end -->
+
+            </div>
+            <!-- content end -->
+
+        </div>
+        <!-- app container end -->
+
+    </div>
+    <!-- app wrapper end -->
+
+    <!-- preloader -->
+    <div class="art-preloader">
+        <!-- preloader content -->
+        <div class="art-preloader-content">
+            <!-- title -->
+            <h4>Daniel Gozdolek</h4>
+            <!-- progressbar -->
+            <div id="preloader" class="art-preloader-load"></div>
+        </div>
+        <!-- preloader content end -->
+    </div>
+    <!-- preloader end -->
+
+</div>
+<!-- app end -->
+<div id="swupMenu"></div>
+
+<!-- jquery js -->
+<script src="js/plugins/jquery.min.js"></script>
+<!-- anime js -->
+<script src="js/plugins/anime.min.js"></script>
+<!-- swiper js -->
+<script src="js/plugins/swiper.min.js"></script>
+<!-- progressbar js -->
+<script src="js/plugins/progressbar.min.js"></script>
+<!-- smooth scrollbar js -->
+<script src="js/plugins/smooth-scrollbar.min.js"></script>
+<!-- overscroll js -->
+<script src="js/plugins/overscroll.min.js"></script>
+<!-- typing js -->
+<script src="js/plugins/typing.min.js"></script>
+<!-- isotope js -->
+<script src="js/plugins/isotope.min.js"></script>
+<!-- fancybox js -->
+<script src="js/plugins/fancybox.min.js"></script>
+<!-- swup js -->
+<script src="js/plugins/swup.min.js"></script>
+
+<!-- main js -->
+<script src="js/main.js?v=<?php echo filemtime('js/main.js') ?>"></script>
+
+</body>
+
+</html>
