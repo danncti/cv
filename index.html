@@ -18,8 +18,8 @@
     <!-- fancybox css -->
     <link rel="stylesheet" href="css/plugins/fancybox.min.css">
     <!-- main css -->
-    <link rel="stylesheet" href="css/style.css?v=<?php echo filemtime('css/style.css') ?>">
-    <link rel="stylesheet" href="css/print.css?v=<?php echo filemtime('css/print.css') ?>">
+    <link rel="stylesheet" href="css/style.css?v=1.1">
+    <link rel="stylesheet" href="css/print.css?v=1.1">
 
     <title>Daniel Gozdolek</title>
 </head>
@@ -102,11 +102,7 @@
                                 </li>
                                 <!-- age -->
                                 <li>
-                                    <h6>Age:</h6><span><?php
-                                        $m = (int)date('m') - 6;
-                                        $y = (int)date('Y') - 1978;
-                                        if ($m < 0) $y -= 1;
-                                        echo $y; ?></span>
+                                    <h6>Age:</h6><span>45 Y</span>
                                 </li>
                             </ul>
                         </div>
@@ -1176,7 +1172,7 @@
 <script src="js/plugins/swup.min.js"></script>
 
 <!-- main js -->
-<script src="js/main.js?v=<?php echo filemtime('js/main.js') ?>"></script>
+<script src="js/main.js?v=1.1"></script>
 
 </body>
 
