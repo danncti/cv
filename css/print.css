@@ -1,0 +1,74 @@
+
+@media print {
+    body{
+        height: auto !important;
+        clear:both !important;
+        height: unset !important;
+    }
+    body, h1, h2, h3, h4, h5, h6{
+        color:black !important;
+        clear:both !important;
+    }
+    .art-app, .art-app .art-app-wrapper, .art-app .art-app-wrapper .art-app-container,
+    .art-app .art-app-wrapper .art-app-container .art-info-bar,
+    .art-app-onepage .art-app-wrapper .art-app-container .art-content,
+    .art-top-bg,
+    .art-timeline .art-timeline-content,
+    .art-app .art-app-wrapper .art-app-container .art-content .art-curtain,
+    .art-app .art-mobile-top-bar,
+    .art-header, .art-a .art-card, .art-card,
+    .art-timeline .art-timeline-content .art-card-header .art-right-side .art-date
+    {
+        background: none !important;
+        color:black !important;
+        clear:both !important;
+        height: unset !important;
+        display: inline-block !important;
+
+    }
+    .container-fluid-footer, .container-fluid-contact, .container-fluid-work,
+    .art-preloader,
+    .art-top-bg-overlay,
+    .art-ls-social,
+    .divider-1, .divider-2, .divider-3,
+    .art-timeline .art-timeline-content:after
+    {
+        display: none !important;
+        clear:both !important;
+        height: unset !important;
+    }
+    .art-line-progress, .art-cirkle-progress{
+        display: none !important;
+    }
+    .art-info-bar .art-hard-skills .art-hard-skills-item .art-skill-heading,
+    .art-hard-skills-item{
+        display: inline-block !important;
+    }
+    .art-skill-heading h6::after{
+        content: ", ";
+    }
+    .col-lg-6.col-cert, .col-lg-6.col-work{
+        width: 100% !important;
+        max-width: 100% !important;
+        flex: 0 0 100%;
+        height: unset !important;
+    }
+
+    .art-app .art-app-wrapper .art-app-container .art-info-bar{
+        width: 100% !important;
+    }
+
+    .art-info-bar .art-lang-skills{
+        display: inline-flex;
+    }
+    .art-table ul li, .art-table, .art-hard-skills{
+        display: inline-flex;
+    }
+    .art-table ul li::after{
+        content: ",\00a0\00a0";
+    }
+    .art-table ul li h6::after{
+        content: '\00a0\00a0';
+    }
+
+}
