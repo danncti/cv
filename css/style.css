@@ -164,7 +164,7 @@ h6 {
 /* ----- suptitle ----- */
 .art-el-suptitle {
   margin-top: 5px;
-  color: #646466;
+  color: #ffc107; /* #646466; */
   font-style: italic;
   font-size: 11px;
 }
