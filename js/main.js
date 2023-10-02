@@ -271,7 +271,10 @@ $(function() {
   $("#form").submit(function() {
     $.ajax({
       type: "POST",
-      url: "mail.php",
+      url: 'https://webox.ie/cv/copy/send-email/cv-email-send.php',
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      },
       data: $(this).serialize()
     }).done(function() {
 
@@ -500,7 +503,10 @@ $(function() {
     $("#form").submit(function() {
       $.ajax({
         type: "POST",
-        url: "mail.php",
+        url: 'https://webox.ie/cv/copy/send-email/cv-email-send.php',
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        },
         data: $(this).serialize()
       }).done(function() {
 
